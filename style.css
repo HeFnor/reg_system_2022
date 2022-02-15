@@ -1,0 +1,20 @@
+body{
+    background-color: cornflowerblue;
+}
+
+.divvv{
+    width: 15%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reg{
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    text-align: center;
+}
