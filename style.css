@@ -1,5 +1,6 @@
 body{
     background-color: cornflowerblue;
+    font-family: 'Roboto', sans-serif;
 }
 
 .reg{
@@ -39,5 +40,15 @@ input::placeholder{
     border-radius: 10px;
 }
 
+input:active{
+    background-color: white;
+}
 
+button:active{
+    background-color: chartreuse;
+}
 
+ :active, :hover, :focus{
+    outline: 0;
+    outline-offset: 0;
+ }
