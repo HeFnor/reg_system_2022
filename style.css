@@ -27,6 +27,7 @@ input{
     height: 25px;
     background-color: #C4C4C4;
     border: 0;
+    transition: 0.2s;
 }
 
 input::placeholder{
@@ -40,15 +41,21 @@ input::placeholder{
     border-radius: 10px;
 }
 
-input:active{
-    background-color: white;
-}
-
-button:active{
-    background-color: chartreuse;
-}
-
  :active, :hover, :focus{
     outline: 0;
     outline-offset: 0;
+ }
+
+ input:active, input:hover, input:focus{
+    background-color: white;
+    width: 300px;
+ }
+
+ button:active{
+     background-color: gray;
+ }
+
+ button:hover{
+     background-color: gray;
+     color: yellow;
  }
