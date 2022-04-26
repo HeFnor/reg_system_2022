@@ -58,4 +58,7 @@ input::placeholder{
  button:hover{
      background-color: gray;
      color: yellow;
+    width: 300px;
+    height: 30px;
+    transition: 0.2s;
  }
