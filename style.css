@@ -36,12 +36,6 @@ input::placeholder{
     padding-left: 15px;
 }
 
-.div-checkbox > input{
-    width: 15px;
-    height: 15px;
-    border-radius: 10px;
-}
-
  :active, :hover, :focus{
     outline: 0;
     outline-offset: 0;
@@ -58,4 +52,24 @@ input::placeholder{
     width: 300px;
     height: 30px;
     
+ }
+
+ .div-checkbox{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .div-checkbox-input{
+     width: 15px;
+     height: 15px;
+ }
+
+ .div-checkbox-input:active, .div-checkbox-input:hover, .div-checkbox-input:focus{
+    width: 15px;
+    height: 15px;
+ }
+
+ .div-checkbox-span{
+     padding-left: 10px;
+     margin-top: 28px;
  }
